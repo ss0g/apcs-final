@@ -1,0 +1,46 @@
+body {
+    background-color: #22222f;
+    /* margin: 0; */
+}
+
+/* div#main {
+    margin: 8px;
+} */
+
+a.menubutton {
+    text-decoration: none;
+    font-family: sans-serif;
+    background: #33333f;
+    color: #dde1ef;
+    padding: 5pt;
+    display: inline;
+    /* margin: 5pt; */
+}
+
+a.menubutton:hover {
+    background: #2a2a38;
+}
+
+a.menubutton:active {
+    background: #262634;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #eaf2ff;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #dde1ef;
+}
+
+* p {
+    font-family: sans-serif;
+    color: #dde1ef;
+}
+
+* li {
+    font-family: sans-serif;
+    color: #dde1ef;
+}
