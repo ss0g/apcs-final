@@ -1,0 +1,24 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+<title>Contact Me - Troy Edwards</title>
+{% endblock %}
+
+{% block content %}
+<h1>Contact Me</h1>
+<form action="{{ url_for('submit_contact_form') }}" method="POST">
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="questions" class="form-label">Questions</label>
+        <textarea class="form-control" id="questions" name="questions" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}

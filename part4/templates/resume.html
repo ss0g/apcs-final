@@ -1,0 +1,124 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+<title>Resume - Troy Edwards</title>
+{% endblock %}
+
+{% block content %}
+<h1>Resume</h1>
+<div class="accordion" id="accordionResume">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Contact Information
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <ul>
+                    <li>Troy Edwards</li>
+                    <li>555-555-5555</li>
+                    <li>edwartro000@frogrock.org</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Education
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <ul>
+                    <li>Bainbridge High School, 2020-present</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Extracurricular Activities
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <ul>
+                    <li>Programming co-captain on Spartronics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Work Experience
+            </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <ul>
+                    <li>Grounds crew at Wing Point (2022)</li>
+                    <ul>
+                        <li>Watered grass and raked bunkers</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Skills
+            </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <ul>
+                    <li>Programming</li>
+                    <ul>
+                        <li>Java</li>
+                        <li>R</li>
+                        <li>Rust (some)</li>
+                        <li>HTML/CSS (a little bit)</li>
+                        <li>Haskell (a little bit)</li>
+                        <li>Python (a little bit)</li>
+                    </ul>
+                    <li>Math</li>
+                    <ul>
+                        <li>Calculus</li>
+                        <li>Statistics</li>
+                    </ul>
+                    <li>Communication</li>
+                    <ul>
+                        <li>Gmail</li>
+                        <li>Discord? idk I'm just trying to come up with stuff to put on here</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Achievements
+            </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <ul>
+                    <li>Honestly not much</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+<title>Portfolio - Troy Edwards</title>
+{% endblock %}
+
+{% block content %}
+<h1>Portfolio</h1>
+<div class="card-group">
+    <div class="card" style="width: 18rem;">
+        <img src="{{ url_for('static', filename = 'swerve.png') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Swerve drive</h5>
+            <p class="card-text">This is a swerve drive I programmed for my robotics team.</p>
+            <a href="https://github.com/Spartronics4915/2023-ChargedUp/blob/main/src/main/java/com/spartronics4915/frc2023/subsystems/Swerve.java"
+                class="btn btn-primary">Go to code</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{{ url_for('static', filename = 'appliedstatsplot.png') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Applied stats work</h5>
+            <p class="card-text">This is my work for my applied statistics course.</p>
+            <a href="https://github.com/ss0g/applied-stats" class="btn btn-primary">Go to code</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{{ url_for('static', filename = 'apstats.png') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">AP Stats final project</h5>
+            <p class="card-text">This is a Jupyter notebook with all of the charts and calculations for my AP Stats
+                final project.</p>
+            <a href="https://github.com/ss0g/stats-final-project/blob/main/src/all/all.ipynb" class="btn btn-primary">Go
+                to code</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
